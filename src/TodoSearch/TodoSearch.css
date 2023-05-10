@@ -1,0 +1,12 @@
+#hola{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+#inputTodo{
+    width: 800px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 24px;
+    text-align: center;
+}
