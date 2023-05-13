@@ -1,0 +1,20 @@
+li{
+  list-style: none;  
+  display: flex;
+  justify-content: space-between;
+  border: 30px 30px rgba(0 0 0 0,5);
+  width: 90%;
+}
+li>span{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+li>span>button{
+    border: none;
+    padding: 0;
+    background-color:black;
+    margin-top: -20px;
+      
+}
