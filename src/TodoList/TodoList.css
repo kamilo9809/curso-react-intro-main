@@ -4,5 +4,7 @@ ul{
     align-items: center;   
     font-size: 25px;
     width: 92%;
+    left: -14px;
+    position: relative;
 
 }

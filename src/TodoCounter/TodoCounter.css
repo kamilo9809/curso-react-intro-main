@@ -1,13 +1,12 @@
 
-
 h1{ 
     display: flex;
     justify-content: center;
-    width: 1000px;
+    width: 85%;
     background-color:   #d3e3b6  ;
+    border-radius: 10px;
     font-size: 40px;
     text-align: center;
     margin:"0";
-    padding:48px;
     font-family: Lato ;    
   }

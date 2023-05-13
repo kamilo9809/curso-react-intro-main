@@ -1,9 +1,10 @@
 #hola{
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 #inputTodo{
-    width: 800px;
+    width: 80%;
     height: 50px;
     border-radius: 40px;
     font-size: 24px;

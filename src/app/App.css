@@ -1,7 +1,11 @@
 #menuapp{  
-  background-color:    #d6f58e   ;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-
+  width: 100%;
+  height: 600px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  align-items: center;
 }

@@ -23,16 +23,18 @@ function App() {
       <TodoSearch/>
 
       <TodoList> 
-        {defaultTodos.map(todo =>(
+        {defaultTodos.map(({ text, completed }) =>(
           <TodoItem 
-            key={todo.text}
-            text={todo.text}
-            completed={todo.completed} />
+            key={text}
+            text={text}
+            completed={completed} />
         ))}
         {[<TodoList/>]}
       </TodoList>
       <CreateTodoButton/>
+
       </div>
+
 
 
     </>

@@ -2,8 +2,13 @@ li{
   list-style: none;  
   display: flex;
   justify-content: space-between;
-  border: 30px 30px rgba(0 0 0 0,5);
-  width: 90%;
+  width: 80%;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
 }
 li>span{
     display: flex;
@@ -14,7 +19,12 @@ li>span{
 li>span>button{
     border: none;
     padding: 0;
-    background-color:black;
-    margin-top: -20px;
-      
+    background-color: rgba(245, 245, 220, 0);
+    
+}
+li>span>button:active {
+    transform: translateY(2px);
+  }
+li>p{
+    margin: 0px;
 }
