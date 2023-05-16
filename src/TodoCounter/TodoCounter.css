@@ -3,10 +3,10 @@ h1{
     display: flex;
     justify-content: center;
     width: 85%;
-    background-color:   #d3e3b6  ;
+    background-color:   #c5c6c4  ;
     border-radius: 10px;
     font-size: 40px;
+    font-family: 'Noto Serif', serif;
     text-align: center;
     margin:"0";
-    font-family: Lato ;    
   }
