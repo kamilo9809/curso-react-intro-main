@@ -1,9 +1,11 @@
+import './MenupTodo.css'
+
 function MenuPTodo(){
     return(
-        <div>
-            <button>menuTodo</button>
-            <button>completado</button>
-            <button>Eliminado</button>
+        <div id="menuTodo">
+            <button className='completedT'>Completado</button>
+            <button className='MTodo'>Menu Todo</button>
+            <button className='deletedT'>Eliminado</button>
         </div>
     );
 }

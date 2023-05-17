@@ -12,7 +12,8 @@ const defaultTodos = [
   {text: 'cortar cebolla', completed:true},
   {text: 'Tomar el Curso de Intro a React', completed:false},
   {text: 'llorar con la llorona', completed:false},
-  {text: 'lalalalalal', completed:false}
+  {text: 'lalalalalal', completed:false},
+  {text: 'dar amor a mi hija', completed:true}
 ];
 function App() {
   return (
@@ -24,9 +25,9 @@ function App() {
       <TodoSearch/>
 
 
-      <MenuPTodo id="menuTodo">
+      <MenuPTodo>
       </MenuPTodo>
-      <TodoList> 
+      <TodoList id="menuprincipal"> 
         {defaultTodos.map(({ text, completed }) =>(
           <TodoItem 
             key={text}
@@ -38,16 +39,10 @@ function App() {
       <CreateTodoButton/>
 
 
-      <completedTodo id="completeTodo">
 
-      </completedTodo>
+      
 
-
-
-      <deletedTodo id="deletedTodo">
-
-      </deletedTodo>
-
+      
 
       </div>
 

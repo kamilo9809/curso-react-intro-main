@@ -9,6 +9,8 @@ li{
   border-width: 1px;
   border-style: solid;
   border-color: black;
+  position: relative;
+  left: -20px;
 }
 li>span{
     display: flex;

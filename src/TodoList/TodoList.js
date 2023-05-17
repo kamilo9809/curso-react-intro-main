@@ -2,7 +2,7 @@ import './TodoList.css'
 
 
 function TodoList(props){
-    return (
+    return ( 
         <ul>
             {props.children}
         </ul>
