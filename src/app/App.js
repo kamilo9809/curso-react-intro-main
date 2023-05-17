@@ -3,6 +3,7 @@ import { TodoSearch } from '../TodoSearch/TodoSearch';
 import { TodoList } from '../TodoList/TodoList';
 import { TodoItem } from '../TodoItem/TodoItem';
 import { CreateTodoButton } from '../CreateTodoButton/CreateTodoButton';
+import { MenuPTodo } from '../MenuPTodo/MenuPTodo';
 import './App.css'
 
 
@@ -22,6 +23,9 @@ function App() {
 
       <TodoSearch/>
 
+
+      <MenuPTodo id="menuTodo">
+      </MenuPTodo>
       <TodoList> 
         {defaultTodos.map(({ text, completed }) =>(
           <TodoItem 
@@ -32,6 +36,18 @@ function App() {
         {[<TodoList/>]}
       </TodoList>
       <CreateTodoButton/>
+
+
+      <completedTodo id="completeTodo">
+
+      </completedTodo>
+
+
+
+      <deletedTodo id="deletedTodo">
+
+      </deletedTodo>
+
 
       </div>
 
