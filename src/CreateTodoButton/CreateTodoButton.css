@@ -5,23 +5,29 @@
     height: 100px;
     border: none;
     padding: 0;
-    left: 100px;
-    top: 454px;
+    left: 1190px;
+    top: 40px;
     background-color: rgba(0, 0, 0, 0);
 }
 
-#CreateTodoButton:focus,
-#CreateTodoButton:active{
+#CreateTodoButton:hover{
     animation-name: girobutton;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
+
+
 
 @keyframes girobutton{
     from{
         rotate: 0deg;
     }
     to{
-        rotate: 360deg
+        rotate: 230deg
     }
 }
+
+
+#CreateTodoButton:active {
+    transform: translateY(2px);
+  }

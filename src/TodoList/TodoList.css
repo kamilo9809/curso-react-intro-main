@@ -3,10 +3,9 @@ ul{
     flex-direction: column;
     align-items: center;   
     font-size: 25px;
-    width: 86%;
+    width: 90%;
     left: 1px;
     position: relative;
-    border: 1.50px solid;
-    margin-top: 1px;
+    margin-top: 50px;
     border-top: none;
 }

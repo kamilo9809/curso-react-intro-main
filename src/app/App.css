@@ -2,13 +2,9 @@
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  width: 100%;
-  height: 600px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
+  width: 125%;
+  height: auto ;
   align-items: center;
-  background-color: #c5c6c4;
 }
 
 @media screen {
