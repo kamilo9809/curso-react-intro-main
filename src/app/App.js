@@ -4,6 +4,7 @@ import { TodoList } from '../TodoList/TodoList';
 import { TodoItem } from '../TodoItem/TodoItem';
 import { CreateTodoButton } from '../CreateTodoButton/CreateTodoButton';
 import { Imagendelaniña } from '../Imagendelaniña/Imagendelaniña';
+import { useLocalStorage } from './useLocalStorage';
 import React from 'react';
 import './App.css'
 
@@ -29,27 +30,6 @@ import './App.css'
 //   localStorage.setItem("Todos_V1", JSON.stringify(defaultTodos));
 
 //localStorage.removeItem("Todos_V1,");
-
-
-function useLocalStorage(itemName, initialValue){
-    const localStorageItem = localStorage.getItem(itemName);
-    let parsedItem;
-
-    if(!localStorageItem){
-        localStorage.setItem("itemName", JSON.stringify(initialValue));
-        parsedItem = initialValue;
-    }else{
-        parsedItem=JSON.parse(localStorageItem);
-    }
-    
-    const [item, setItem] = React.useState(parsedItem);
-
-    const saveItem = (newItem)=>{
-        localStorage.setItem(itemName, JSON.stringify(newItem))
-        setItem(newItem);
-    };
-    return [item, saveItem];
-}
 
 function App() {
   const [todos, saveTodos] = useLocalStorage('Todos_V1', []);
